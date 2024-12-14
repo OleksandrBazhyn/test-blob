@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Image Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Static Image from Azure Blob Storage</h1>
+        <img src="https://testsa1212qqq.blob.core.windows.net/testbazhynblobblob/IMG_20241101_002728_466.jpg?sp=r&st=2024-12-14T21:52:44Z&se=2024-12-15T05:52:44Z&sv=2022-11-02&sr=b&sig=aVdLxVikqygb9OHRc4JWSaRSmySiHPqyXx04gryiUSs%3D" alt="Azure Blob Storage Image">
+        <p>This image is served directly from Azure Blob Storage.</p>
+    </div>
+</body>
+</html>
